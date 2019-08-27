@@ -1,7 +1,7 @@
 {
   "name": "recipe-app-react",
   "version": "1.0.0",
-  "description": "build a Recipe App With React",
+  "description": "build a Recipe App With React using EDAMAM API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/ngoclq91/recipe-app-react.git"
+    "url": "git+ssh://git@github.com/ngoclq91/edamam-recipe-app-react"
   },
   "keywords": [
     "recipe-app",
@@ -21,9 +21,9 @@
   "author": "ngoclq91 <ngocsonqs@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ngoclq91/recipe-app-react/issues"
+    "url": "https://github.com/ngoclq91/edamam-recipe-app-react"
   },
-  "homepage": "https://github.com/ngoclq91/recipe-app-react#readme",
+  "homepage": "https://github.com/ngoclq91/edamam-recipe-app-react",
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0"

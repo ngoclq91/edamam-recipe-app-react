@@ -1,18 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class App extends Component {
-    clickMe = () => {
-        console.log('clicked me!');
-    };
-
-    render() {
-        return (
-            <div className="App">
-                <h1>Hello, World</h1>
-                <button onClick={ this.clickMe }>Click Me</button>
-            </div>
-        )
-    }
-}
+const App = () => {
+    return (
+        <div className="App">
+            <h1>Hello React App</h1>
+        </div>
+    )
+};
 
 export default App;

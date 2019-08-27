@@ -1,6 +1,6 @@
 {
   "name": "recipe-app-react",
-  "description": "build a Recipe App With React",
+  "description": "build a Recipe App With React using EDAMAM API",
   "main": "index.js",
   "authors": [
     "ngoclq91 <ngocsonqs@gmail.com>"
@@ -11,7 +11,7 @@
     "reactjs",
     "app"
   ],
-  "homepage": "https://github.com/ngoclq91/recipe-app-react",
+  "homepage": "https://github.com/ngoclq91/edamam-recipe-app-react",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -19,5 +19,8 @@
     "public/libs",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "bootstrap": "bootstrap4#^4.3.1"
+  }
 }
