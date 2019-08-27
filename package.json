@@ -1,0 +1,48 @@
+{
+  "name": "recipe-app-react",
+  "version": "1.0.0",
+  "description": "build a Recipe App With React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf dist",
+    "start": "npm run clean && webpack-dev-server --mode development",
+    "build": "npm run clean && webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ngoclq91/recipe-app-react.git"
+  },
+  "keywords": [
+    "recipe-app",
+    "reactjs",
+    "app"
+  ],
+  "author": "ngoclq91 <ngocsonqs@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngoclq91/recipe-app-react/issues"
+  },
+  "homepage": "https://github.com/ngoclq91/recipe-app-react#readme",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-json-strings": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-syntax-import-meta": "^7.0.0",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "rimraf": "^3.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
